@@ -1,39 +1,52 @@
 body
-	background-color: $main-color
-	font-family: Arial, Helvetica, sans-serif
+  background-color: $main-color
+  font-family: Arial, Helvetica, sans-serif
 
 .flex-container
-	display: flex
-	flex-wrap: wrap
-	align-items: center
-	justify-content: center
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
 
 .hijo-principal
-	background-color: $main-color
-	margin-top: 100px
-  width: 90%
-  height: 100px
+  background-color: $purple
+  margin-top: 100px
+  width: 82%
+  height: 80px
   text-align: center
   color: #fff
 
 .hijo
- background-color: $main-color
+  background-color: $aqua
   margin: 10px
   padding: 10px
   text-align: left
-  width: 330px
-  height: 350px
+  width: 300px
+  height: 300px
   border-radius: 5px
-	font-weight: bold 
+  
 
 .hijo1
-  background-color: $main-color
+  background-color: $aqua
   margin: 10px
   padding: 10px
   text-align: left
-  width: 437px
+  width: 380px
+  height: 300px
+  border-radius: 5px
+
+@media only screen and (max-width: 710px) 
+.hijo-principal 
+  color: #00ffff
+.hijo 
+  width: 300px
+  height: 400px
+.hijo1  
+  width: 300px
   height: 350px
-	font-weight: bold 
+h2  
+  color: $purple
+  
 
 h1
   text-align: center
@@ -42,4 +55,4 @@ h1
 
 h2
   font-size: 25px
-	font-weight: bolder
+  font-weight: bolder
