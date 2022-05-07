@@ -9,6 +9,7 @@
  <link rel="stylesheet" href="./css/base.css">
     
 </head>
+
 <body>
 
   <header>
@@ -17,29 +18,47 @@
       <div class="row">
 
         <div class="col-2 py-2">
-          <img src="./imgs/logo-full.svg" alt="icono">
+          <img src="./imgs/logo-full.svg" alt="icono" width="200">
         </div>
 
         <div class="col-5"></div>
 
         <div class="col-5">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
+            <div class="container-fluid">
 
-              <a class="navbar-brand" href="about.html">ABOUT</a>
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler border border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
                   </li>
+
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">OUR SERVICES</a>
                   </li>
+
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">PORTFOLIO</a>
                   </li>
-                  
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT US</a>
+                  </li>
+
+                  <hr>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><strong>EN</strong></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">ID</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -51,11 +70,11 @@
     <div class="container p-5">
       <div class="row">
 
-        <div class="col-8 text-center">
-          <h1>YOUR TRUSTED DIGITAL MARKETING PROFESSIONALS</h1>
-          <p>We work with forward-thinking businesses and build creative solutions for their growth.</p>
-          <button type="button" class="btn btn-secondary" href="about.html">About</button>
-          <button type="button" class="btn btn-primary">Our Services</button>
+        <div class="col-8 text-left pt-5">
+          <h1><strong>YOUR TRUSTED DIGITAL MARKETING PROFESSIONALS</strong></h1>
+          <p class="text-muted">We work with forward-thinking businesses and build creative solutions for their growth.</p>
+          <a type="button" class="btn btn-secondary rounded-pill" href="about.html">About</a>
+          <a type="button" class="btn btn-primary rounded-pill mx-3" href="ourservices.html">Our Services</a>
         </div>
 
         <div class="col-2">
@@ -144,7 +163,7 @@
 
         <div class="col-12">
           <div>
-            <p class="text-center my-5">Copyright © 2022 Buildonauts Limited. All rights reserved.</p>
+            <p class="text-center my-5"><small> Copyright © 2022 Buildonauts Limited. All rights reserved.</small></p>
           </div>
         </div>  
 

@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,EAAE,CAAC;EACD,KAAK,EAAE,OAAO;CAAG",
     "sources": [
-        "../sass/base.sass"
+        "../sass/base.sass",
+        "../sass/_general.sass",
+        "../sass/_variables.sass"
     ],
     "names": [],
     "file": "base.css"
