@@ -1,7 +1,3 @@
-h1, h2, h3, h4, h5, a {
-  color: #08105a;
-}
-
 .navbar a:hover {
   text-decoration: none;
   color: #000;
@@ -18,8 +14,9 @@ a:hover {
 }
 
 .blanquito:hover {
-  background-color: #babff3;
+  background-color: #e2e3ec;
   text-decoration: none;
+  color: #000;
 }
 
 .botonazul {
@@ -32,17 +29,21 @@ a:hover {
 }
 
 .claro {
-  background-color: #babff3;
+  background-color: #c5caeb;
   color: #fff;
 }
 
 .claro:hover {
-  background-color: #a5adee;
+  background-color: #b2b8eb;
   text-decoration: none;
   color: #fff;
 }
 
 .inicio {
   color: #babff3;
+}
+
+.textos, h1, h2, h3, h4, h5, a {
+  color: #08105a;
 }
 /*# sourceMappingURL=base.css.map */
